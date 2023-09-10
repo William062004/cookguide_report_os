@@ -819,3 +819,37 @@ Nuestro último segmento objetivo abarca a las personas que, ya sean madres de f
 |32|US 032|Comentar recetas|Como usuario, quiero poder dejar comentarios detallados en las recetas para compartir mis experiencias y sugerencias con otros usuarios.|1|
 |33|US 033|Visualizar calificaciones y comentarios de recetas |Como usuario, quiero poder ver las calificaciones promedio de las recetas y los comentarios de otros usuarios para tomar decisiones informadas sobre qué recetas probar.|1|
 |45|US 045|Reconocimientos por compartir recetas|Como usuario, quiero recibir recompensas o insignias especiales por compartir recetas populares en mis redes sociales.|1|
+
+
+
+
+
+**5.1.3. Source Code Style Guide & Conventions.**
+
+En lo que respecta a las convenciones o estilos de programación, seguiremos las convenciones básicas de camelCase y UpperCamelCase según corresponda. Además, nos regimos por la guía de estilo de Google para programar en HTML y CSS, conocida como el "Google HTML/CSS Style Guide".
+
+En cuanto a las pautas para el control de versiones, adoptaremos los "conventional commits" tanto para la creación de ramas (siguiendo el formato <type>/<title>) como para la realización de commits (<type>(scope opcional): <descripción>). Un ejemplo de ello sería:
+
+Rama: feat/main-component
+
+Commit -> feat(ui): agregado el template del componente principal
+
+En lo que respecta a la creación de ramas, seguiremos el modelo de GitFlow, utilizando ramas de características ("feature branches") de acuerdo con la nomenclatura mencionada anteriormente. Nuestra rama principal será "main", que contendrá la versión de la aplicación en producción. Todas las ramas de características y correcciones se fusionarán con esta rama principal, y gracias a la integración con Cloudflare Pages, se desplegará automáticamente.
+
+**5.1.4. Software Deployment Configuration.**
+
+
+|Sprint #|1|
+| - | - |
+|Sprint Planning Background||
+|Date|07/09/2023|
+|Time|11:00 pm|
+|Location|Reunión virtual a través del canal de discord del equipo llamado “Team CookGuide”|
+|Prepared by|William Ramos Vicente|
+|Attendees (to planning meeting|Lucía Aliaga Trevejo/Diego Antonio Sánchez Ramírez/Max Anthony Paitan Pumacahua/Trujillo Lopez, Luis Alberto/Luis Alberto Siancas Reategui/Ramos Vicente, William|
+|Sprint n - 1 Review Summary |En esta primera reunión de equipo, nos enfocamos en asignar las tareas para el próximo sprint. Dado que es nuestro primer encuentro, no hay resultados del sprint anterior que informar en este momento. En lugar de eso, nos aseguramos de que todos los miembros del equipo comprendan claramente cuáles son sus responsabilidades y cuál es el alcance de la tarea asignada a cada uno|
+|Sprint n - 1 Retrospective Summary|En nuestra reunión de equipo, nos tomamos un momento para reflexionar sobre el sprint anterior y compartir nuestras opiniones sobre cómo podríamos mejorar nuestra forma de trabajo. Cada miembro del equipo tuvo la oportunidad de expresar su opinión sobre los aciertos y las oportunidades de mejora que observaron en el sprint anterior. En general, estuvimos de acuerdo en que logramos algunos éxitos importantes, pero también identificamos áreas en las que podemos mejorar para ser más eficientes y productivos como equipo.|
+|Sprint Goal & User Stories||
+|Sprint n Goal|Crear la landing page de nuestro sitio web, y la métrica de cumplimiento fue que la página web estuviera lista y en línea antes de la fecha límite acordada.|
+|Sprint n Velocity|15|
+|Sum of Story Points|20|
